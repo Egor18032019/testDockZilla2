@@ -1,0 +1,25 @@
+
+.list-students {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+.cell_list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: column;
+}
+
+
+.cell {
+    display: flex;
+     border: 1px solid black;
+}
+
+.cell_name {
+    width: 100px;
+    border: 2px solid black;
+    height: 30px;
+}
